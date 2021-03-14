@@ -30,7 +30,6 @@ app.post('/note', NoteController.create);
 app.put('/note/:id', NoteController.update);
 app.delete('/note/:id', NoteController.delete);
 
-// Listen on Port 4000 for requests
 app.listen(4000, () => {
 	console.log("API is now listening to requests!");
 });
